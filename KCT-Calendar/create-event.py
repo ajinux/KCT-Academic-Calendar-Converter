@@ -7,8 +7,11 @@ data=csv.reader(out)
 
 month={"JUNE":"2016-06","JULY":"2016-07","AUGUST":"2016-08","SEPTEMBER":"2016-09","OCTOBER":"2016-10","NOVEMBER":"2016-11","DECEMBER":"2016-12","JANUARY":"2017-01","FEBRUARY":"2017-02","MARCH":"2017-03","APRIL":"2017-04","MAY":"2017-05","JUNE":"2017-06"}
 
-p_month="Hello"
+p_month="" # has month
 num=0
+
+sems = input("Enter the Semesters: ").lower().split()
+sems = map(str.strip, sems)
 
 for row in data:
 	#print row
@@ -21,17 +24,18 @@ for row in data:
 		print p_month
 		continue
 	if row[1].lower()=="sun":
-		continue
+		continue # ignore all sundays 
 	if row[2]:
 		temp=row[2]
 		temp=temp.lower()
-		if "v"  in temp.split() or "vi" in temp.split():
-			#print "date: "+p_month+"-"+row[0]+", Info:"+temp
+		# if "v"  in temp.split() or "vi" in temp.split():
+		if any(x in sems for x in temp.split()):
+			# print "date: "+p_month+"-"+row[0]+", Info:"+temp
 			if len(row[0])==1:
 				day="0"+row[0]
 			else:
 				day=row[0]
-			#print row[2]+" "+p_month+"-"+day
+			# print row[2]+" "+p_month+"-"+day
 			CalendarApi.create_remainder(row[2],p_month+"-"+day)
 		#if "holiday" in temp:
 		#if "v"  in temp.split() or "vi" in temp.split() or "holiday" in temp:
