@@ -7,10 +7,14 @@
 
 ##### Screenshot  
 <figure>
-  <img src="https://github.com/Ajithkumarsekar/KCT-Academic-calendar-Converter/blob/master/Pictures/calendar_monthly.png?raw=true" width="350" height="470">
+  <img src="https://github.com/Ajithkumarsekar/KCT-Academic-calendar-Converter/blob/master/Pictures/calendar_monthly.png?raw=true" title="Monthly Tab Overview" width="350" height="470">
   <figcaption>Monthly Tab</figcaption>
 </figure>
-
-<img src="https://raw.githubusercontent.com/Ajithkumarsekar/KCT-Academic-calendar-Converter/master/Pictures/calendar_schedule.png" width="350" height="470">
+|
+<figure>
+	<img src="https://raw.githubusercontent.com/Ajithkumarsekar/KCT-Academic-calendar-Converter/master/Pictures/calendar_schedule.png" title="Monthly Tab Overview" width="350" height="470">
+  <figcaption>Monthly Tab</figcaption>
+</figure>
+|
 
     
