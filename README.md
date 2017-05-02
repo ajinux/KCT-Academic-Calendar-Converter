@@ -8,7 +8,7 @@
 ##### Screenshot  
 
 
-| <figure><img src="https://github.com/Ajithkumarsekar/KCT-Academic-calendar-Converter/blob/aster/Pictures/calendar_monthly.png?raw=true" title="Monthly Tab Overview" width="350" height="470"><figcaption>Monthly Tab</figcaption></figure> | <figure><img src="https://raw.githubusercontent.com/Ajithkumarsekar/KCT-Academic-calendar-Converter/master/Pictures/calendar_schedule.png" title="Schedule Tab Overview" width="350" height="470"><figcaption>Schedule Tab</figcaption></figure> |
+| <figure><img src="https://github.com/Ajithkumarsekar/KCT-Academic-calendar-Converter/blob/aster/Pictures/calendar_monthly.png?raw=true" title="Monthly Tab Overview" width="350" height="470"><figcaption>Monthly Tab</figcaption></figure> | <figure><img src="https://raw.githubusercontent.     com/Ajithkumarsekar/KCT-Academic-calendar-Converter/master/Pictures/calendar_schedule.png" title="Schedule Tab Overview" width="350" height="470"><figcaption>Schedule Tab</figcaption></figure> |
 |:-----:|:------:|
 | Monthly | Schedule | 
 
