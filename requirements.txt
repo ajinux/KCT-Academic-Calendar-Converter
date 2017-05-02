@@ -1,0 +1,5 @@
+google-api-python-client==1.5.1
+ndg-httpsclient==0.4.0
+oauth2client==2.1.0
+oauthlib==1.0.3
+PyPDF2==1.26.0
